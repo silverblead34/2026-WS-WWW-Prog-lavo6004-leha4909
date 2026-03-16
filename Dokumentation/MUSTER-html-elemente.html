@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML-Elemente</title>
+  <!-- Link zum Stylesheet setzen. -->
+  <link rel="stylesheet" href="#">
+</head>
+
+<body>
+  <!-- Korrekte Klasse für Layout setzen. -->
+  <!-- 3x: Header, Main & Footer. -->
+  <!-- Falls nötig Struktur ändern. -->
+  <header>
+    <div class="Layout">
+      <h1>HTML-Elemente</h1>
+
+      <p>Dies ist der Seitenanfang mit Header-Element.</p>
+
+      <h2>Navigation mit &lt;nav&gt;</h2>
+      <nav>
+        <ul>
+          <li><a href="#hx">Überschriften</a></li>
+          <li><a href="#blocks">Block-Elemente</a></li>
+          <li><a href="#phrase">Inline-Elemente</a></li>
+          <li><a href="#media">Medienelemente</a></li>
+          <li><a href="#forms">Formular-Elemente</a></li>
+          <li><a href="#table">Tabellen</a></li>
+          <li><a href="#interactive">Interaktiv</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Korrekte Klasse für Layout setzen. -->
+  <main class="Layout">
+    <h2 #id="hx">Überschriften</h2>
+
+
+    <h1>Haupt-Überschrift (h1)</h1>
+    <p>Ich bin Blindtext. Von Geburt an. Es hat lange gedauert, bis ich
+      begriffen
+      habe, was es bedeutet, ein blinder Text zu sein: Man macht keinen Sinn.
+      Man
+      wirkt hier und da aus dem Zusammenhang gerissen. Oft wird man gar nicht
+      erst
+      gelesen. Aber bin ich
+      deshalb ein schlechter Text? </p>
+    <h2>Unter-Überschrift (h2)</h2>
+    <p>Ich weiss, dass ich nie die Chance haben werde, im Stern zu erscheinen.
+      Aber
+      bin ich darum weniger wichtig? Ich bin blind! Aber ich bin gerne Text. Und
+      sollten Sie mich jetzt tatsächlich zu Ende lesen, dann habe ich etwas
+      geschafft, was den meisten
+      »normalen« Texten nicht gelingt.</p>
+    <h3>Zwischen-Überschrift (h3)</h3>
+    <p>Ich bin Blindtext. Von Geburt an. Es hat lange gedauert, bis ich
+      begriffen
+      habe, was es bedeutet, ein blinder Text zu sein: Man macht keinen Sinn.
+      Man
+      wirkt hier und da aus dem Zusammenhang gerissen. Oft wird man gar nicht
+      erst
+      gelesen. Aber bin ich
+      deshalb ein schlechter Text? </p>
+
+    <h4>Überschrift Ebene vier</h4>
+    <p>Ich weiss, dass ich nie die Chance haben werde, im Stern zu erscheinen.
+      Aber
+      bin ich darum weniger wichtig? Ich bin blind! Aber ich bin gerne Text. Und
+      sollten Sie mich jetzt tatsächlich zu Ende lesen, dann habe ich etwas
+      geschafft, was den meisten
+      »normalen« Texten nicht gelingt.</p>
+    <h5>Überschrift Ebene fünf</h5>
+    <p>Ich bin Blindtext. Von Geburt an. Es hat lange gedauert, bis ich
+      begriffen
+      habe, was es bedeutet, ein blinder Text zu sein: Man macht keinen Sinn.
+      Man
+      wirkt hier und da aus dem Zusammenhang gerissen. Oft wird man gar nicht
+      erst
+      gelesen. Aber bin ich
+      deshalb ein schlechter Text? </p>
+
+    <h6>Überschrift Ebene sechs</h6>
+    <p>Ich weiss, dass ich nie die Chance haben werde, im Stern zu erscheinen.
+      Aber
+      bin ich darum weniger wichtig? Ich bin blind! Aber ich bin gerne Text. Und
+      sollten Sie mich jetzt tatsächlich zu Ende lesen, dann habe ich etwas
+      geschafft, was den meisten
+      »normalen« Texten nicht gelingt.</p>
+
+    <h2 id="blocks">Block-Elemente</h2>
+    <div>
+      <h3>Absätze</h3>
+
+      <p>Ich bin Blindtext. Von Geburt an. <a href="#phrase">Es hat lange
+          gedauert,
+          bis ich begriffen habe</a>, was es bedeutet, ein blinder Text zu sein:
+        Man
+        macht keinen Sinn. Man wirkt hier und da aus dem Zusammenhang gerissen.
+        Oft
+        wird man gar nicht erst gelesen. Aber bin ich
+        deshalb ein schlechter Text? </p>
+      <p>Ich weiss, dass ich nie die Chance haben werde, im Stern zu erscheinen.
+        Aber
+        bin ich darum weniger wichtig? Ich bin blind! Aber ich bin gerne Text. Und
+        sollten Sie mich jetzt tatsächlich zu Ende lesen, dann habe ich etwas
+        geschafft, was den meisten
+        »normalen« Texten nicht gelingt.</p>
+      <h3>Blockquote</h3>
+      <blockquote>
+        <p>Ich bin Blindtext. Von Geburt an. Es hat lange gedauert, bis ich
+          begriffen
+          habe, was es bedeutet, ein blinder Text zu sein: Man macht keinen Sinn.
+          Man
+          wirkt hier und da aus dem Zusammenhang gerissen. Oft wird man gar nicht
+          erst
+          gelesen. Aber bin
+          ich deshalb ein schlechter Text? <cite>– Unbekannter Blindtext</cite>
+        </p>
+      </blockquote>
+
+      <h3>Unordered-List</h3>
+      <ul>
+        <li>Erster Punkt</li>
+        <li>Zweiter Punkt</li>
+        <li>Dritter Punkt</li>
+      </ul>
+      <h3>Ordered-List</h3>
+      <ol>
+        <li>Erster Punkt</li>
+        <li>Zweiter Punkt</li>
+        <li>Dritter Punkt</li>
+      </ol>
+      <h3>Definitions-Liste</h3>
+      <dl>
+        <dt>Erster Begriff</dt>
+        <dd>Erste Definition</dd>
+        <dt>Zweiter Begriff</dt>
+        <dd>Zweite Definition</dd>
+        <dd>Zweite Definition. Zweiter Satz</dd>
+        <dt>Dritter Begriff</dt>
+        <dd>Dritte Definition</dd>
+      </dl>
+
+      <h3>Vorformatiert (pre)</h3>
+      <pre>
+              Manchmal
+                              ist der
+
+                      Weiß   R  A U       M
+                      wichtig.
+
+          richtig.
+                              n
+                                  i
+                                  c
+                                  h
+                                  t
+                                  i
+                                  g.
+      </pre>
+      <h3>Längerer Code (pre+code)</h3>
+      <pre><code>
+  ;; Building a list of squares from 0 to 9:
+
+
+  (define (list-of-squares n)
+      (let loop ((i n) (res '()))
+      (if (< i 0)
+          res
+          (loop (- i 1) (cons (* i i) res)))))
+
+  ;; And all in one line
+    (define (list-of-squares n) (let loop ((i n) (res '())) (if (< i 0) res (loop (- i 1) (cons (* i i) res)))))
+
+  </code></pre>
+
+    </div>
+    <h2 id="phrase">Inline-Elemente</h2>
+    <p><a href="#">This is a text link</a>(a)</p>
+
+    <p><strong>Strong is used to indicate strong importance</strong>(strong)</p>
+
+    <p><em>This text has added emphasis</em>(em)</p>
+
+    <p>The <b>b element is stylistically different text</b> from normal text,
+      without any special importance</p>
+
+    <p>The <i>i element is text that is set off</i> from the normal text</p>
+
+    <p>The <u>u element is text with an unarticulated</u>, though explicitly
+      rendered, non-textual annotation</p>
+
+    <p>This <del>text is deleted (del)</del> and This <ins>text is inserted
+        (ins)</ins></p>
+
+    <p><s>This text has a strikethrough</s>(s)</p>
+
+    <p>Use the br element <br>only in some semantic cases.</p>
+    <p>Some languages read right to left, <bdi lang="ar">مرحبا</bdi> (bdi).
+    <p><bdo dir="rtl">The normal direction has been
+        overridden.</bdo>(bdo)</p>
+
+    <p>Superscript<sup>®</sup>(sup)</p>
+
+    <p>Subscript for things like H<sub>2</sub>O (sub)</p>
+
+    <p><small>This small text is small for for fine print, etc.</small>(small)</p>
+
+    <p>Abbreviation: <abbr title="">HTML</abbr> (abbr)</p>
+
+    <p>Keybord input: <kbd>Cmd-Z</kbd> (kbd)</p>
+
+    <p>This text is a <q>short inline quotation</q> (q)</p>
+
+    <p><cite>This is a citation</cite> (cite)</p>
+
+    <p>The dfn element indicates a <dfn>definition</dfn> (dfn).</p>
+
+    <p>The <mark>mark element</mark> indicates a highlight (mark)</p>
+
+    <p><code>This is what inline code looks like.</code> (code)</p>
+
+    <p><samp>This is sample output from a computer program</samp> (samp)</p>
+
+    <p>This is a text <span>with a span.</span> (span)</p>
+
+    <p>The variable element, such as <var>x = y</var> (var)</p>
+
+    <h2 id="media">Medienelemente</h2>
+
+    <!-- Start of #subsection-image -->
+    <h3 id="subsection-image">Image</h3>
+    <img src="https://placehold.co/1200x400/F5A623/ffffff/?text=1200x400+Alt" alt="Image Example">
+    <!-- End of #subsection-image -->
+
+    <!-- Start of #subsection-broken-image -->
+    <h3 id="subsection-broken-image">Broken Image</h3>
+    <img src="nope" alt="Broken Image">
+    <!-- End of #subsection-broken-image -->
+
+    <!-- Start of #subsection-figure-with-caption -->
+    <h3 id="subsection-figure-with-caption">Figure with Caption</h3>
+    <figure>
+      <img src="https://placehold.co/400x250?text=Figure+Example" alt="Figure Example">
+      <figcaption>
+        An example figure caption.
+      </figcaption>
+    </figure>
+    <!-- End of #subsection-figure-with-caption -->
+
+    <!-- Start of #subsection-inline-svg -->
+    <h3 id="subsection-inline-svg">Inline SVG in Figure element</h3>
+    <figure>
+      <svg aria-labelledby="svg-title svg-description" role="img" focusable="false" height="162" width="168"
+        viewBox="0 0 28 27" xmlns="https://www.w3.org/2000/svg">
+        <title id="svg-title">A crab</title>
+        <!--[if !IE]> -->
+        <desc id="svg-description">A solid black illustration of a crab.</desc>
+        <!-- <![endif]-->
+        <path fill="#000000"
+          d="M28.044,16.791 C26.087,18.748 23.728,18.633 22.257,18.285 C22.405,17.861 22.53,17.441 22.632,17.033 C22.798,17.043 22.961,17.058 23.139,17.058 C25.093,17.058 27.603,16.308 28.96,12.913 C29.075,12.626 28.935,12.3 28.647,12.186 C28.362,12.071 28.034,12.209 27.919,12.497 C26.723,15.487 24.497,16.018 22.852,15.946 C22.905,15.626 22.946,15.317 22.968,15.032 C23.967,14.782 29.374,11.151 28.999,5.999 C28.773,2.892 25.811,-0.282 22.245,0.753 C22.561,0.915 25.731,2.304 24.933,6.958 C24.933,6.958 21.65,5.677 21.27,2.999 C21.27,2.999 18.375,6.958 24.19,11.329 C24.19,11.329 22.142,13.261 19.046,11.12 C18.826,10.911 18.598,10.718 18.36,10.54 L18.36,9 L17.24,9 L17.24,9.869 C16.538,9.541 15.786,10.08 15,10.08 C14.214,10.08 13.462,9.541 12.761,9.869 L12.761,9 L11.641,9 L11.641,10.541 C11.402,10.719 11.173,10.912 10.953,11.121 C7.858,13.262 5.81,11.33 5.81,11.33 C11.624,6.959 8.729,3 8.729,3 C8.349,5.678 5.067,6.959 5.067,6.959 C4.267,2.305 7.437,0.916 7.753,0.754 C4.187,-0.281 1.226,2.893 0.999,6 C0.624,11.152 6.031,14.783 7.03,15.033 C7.053,15.318 7.094,15.627 7.146,15.947 C5.501,16.019 3.275,15.488 2.079,12.498 C1.965,12.211 1.637,12.072 1.351,12.187 C1.064,12.3 0.924,12.626 1.038,12.914 C2.395,16.309 4.906,17.059 6.859,17.059 C7.037,17.059 7.2,17.043 7.366,17.034 C7.468,17.442 7.594,17.862 7.741,18.286 C6.27,18.634 3.911,18.749 1.954,16.792 C1.735,16.573 1.381,16.573 1.162,16.792 C0.943,17.011 0.943,17.364 1.162,17.583 C2.721,19.142 4.511,19.587 6.043,19.587 C6.845,19.587 7.561,19.462 8.151,19.316 C8.233,19.5 8.317,19.681 8.409,19.861 C6.471,20.74 4.358,22.316 4.358,25.029 C4.358,25.338 4.609,25.588 4.917,25.588 C5.227,25.588 5.478,25.338 5.478,25.029 C5.478,22.9 7.272,21.609 8.938,20.863 C9.049,21.045 9.182,21.213 9.332,21.369 C9.434,21.506 9.543,21.639 9.652,21.769 C8.879,22.156 8.108,22.73 7.851,23.576 C7.572,24.502 7.958,25.502 9.001,26.545 C9.11,26.654 9.254,26.709 9.397,26.709 C9.541,26.709 9.683,26.654 9.793,26.545 C10.012,26.326 10.012,25.971 9.793,25.752 C9.064,25.023 8.772,24.4 8.923,23.902 C9.09,23.345 9.783,22.918 10.465,22.629 C11.622,23.666 13.111,24.356 14.997,24.356 C16.883,24.356 18.372,23.667 19.53,22.629 C20.212,22.918 20.904,23.346 21.071,23.902 C21.222,24.4 20.929,25.023 20.201,25.752 C19.982,25.971 19.982,26.326 20.201,26.545 C20.31,26.654 20.454,26.709 20.596,26.709 C20.74,26.709 20.883,26.654 20.992,26.545 C22.036,25.502 22.423,24.502 22.142,23.576 C21.885,22.73 21.114,22.156 20.341,21.769 C20.45,21.638 20.56,21.505 20.661,21.369 C20.81,21.213 20.944,21.045 21.055,20.863 C22.722,21.609 24.515,22.9 24.515,25.029 C24.515,25.338 24.766,25.588 25.076,25.588 C25.386,25.588 25.636,25.338 25.636,25.029 C25.636,22.316 23.523,20.74 21.585,19.861 C21.677,19.681 21.762,19.5 21.843,19.316 C22.434,19.462 23.15,19.587 23.951,19.587 C25.484,19.587 27.273,19.142 28.832,17.583 C29.051,17.364 29.051,17.011 28.832,16.792 C28.617,16.572 28.263,16.572 28.044,16.791 Z"
+          transform="translate(-1)" opacity=".9"></path>
+      </svg>
+      <figcaption>
+        <a rel="external noopener" href="https://thenounproject.com/search/?q=crab&amp;i=583446">Crab by
+          Hea
+          Poh Lin</a> from the Noun Project
+      </figcaption>
+    </figure>
+
+    <!-- End of #subsection-inline-svg -->
+
+    <!-- Start of #subsection-picture -->
+    <h3 id="subsection-picture">Picture</h3>
+    <picture>
+      <source media="(min-width: 40em)" srcset="https://placehold.co/800x450/7ED321/ffffff/?text=1x+Source+w/Breakpoint+Example 1x,
+                https://placehold.co/800x600/7ED321/ffffff/?text=2x+Source+w/Breakpoint+Example 2x">
+      <source srcset="https://placehold.co/500x250/F5A623/ffffff/?text=1x+Source+Example 1x,
+                https://placehold.co/500x250/F5A623/ffffff/?text=2x+Source+Example 2x">
+      <img src="https://placehold.co/600x400?text=Img+Fallback" alt="Picture Element">
+    </picture>
+    <!-- End of #subsection-picture -->
+
+    <!-- Start of #subsection-image-with-srcset-and-sizes -->
+    <h3 id="subsection-image-with-srcset-and-sizes">Image with Srcset and Sizes
+    </h3>
+    <img srcset="https://placehold.co/1024x768/7ED321/ffffff/?text=Large 1024w,
+              https://placehold.co/1024x768/F5A623/ffffff/?text=Medium 640w,
+              https://placehold.co/320x240/50E3C2/ffffff/?text=Small 320w" sizes="(min-width: 36em) 50vw, 100vw"
+      src="https://placehold.co/600x400?text=Img+Fallback" alt="Image with Srcset and Sizes Example">
+    <!-- End of #subsection-image-with-srcset-and-sizes -->
+
+    <!-- Start of #subsection-iframe -->
+    <h3 id="subsection-iframe">Iframe</h3>
+    <iframe src="about:blank" title="Example blank iframe" name="iframe">
+    </iframe>
+    <!-- End of #subsection-iframe -->
+
+    <!-- Start of #subsection-audio -->
+    <h3 id="subsection-audio">Audio</h3>
+    <audio controls="">
+      <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" type="audio/mp3">
+      Your browser does not support the <code translate="no">&lt;audio&gt;</code>
+      element.
+      Please <a rel="external noopener" href="https://browsehappy.com/">consider
+        upgrading your browser</a> or <a download=""
+        href="https://www.noiseaddicts.com/samples_1w72b820/4353.mp3">download a
+        file</a> for offline listening.
+    </audio>
+    <p>Audio von <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">MDN</a>
+    </p>
+    <!-- End of #subsection-audio -->
+
+    <!-- Start of #subsection-video -->
+    <h3 id="subsection-video">Video</h3>
+
+    <video controls poster="https://placehold.co/240x160?text=Video+Poster">
+      <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+      <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+
+      Download the
+      <a href="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm">WEBM</a>
+      or
+      <a href="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4">MP4</a>
+      video.
+    </video>
+    <p>Video von <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">MDN</a>
+    </p>
+    <!-- End of #subsection-video -->
+
+    <!-- Start of #subsection-canvas -->
+    <h3 id="subsection-canvas">Canvas</h3>
+    <canvas id="myCanvas" width="400" height="400">
+      Your browser does not support the <code translate="no">&lt;canvas&gt;</code>
+      element.
+      Please <a rel="external noopener" href="https://browsehappy.com/">consider
+        upgrading your browser</a>.
+    </canvas>
+
+    <!-- End of #subsection-canvas -->
+
+    <h2 id="forms">Formular-Elemente</h2>
+
+    <form>
+      <fieldset>
+        <legend>Eingabefelder</legend>
+        <div>
+          <label for="example-input-text">Text</label>
+          <input type="text" id="example-input-text">
+        </div>
+        <div>
+          <label for="example-input-text_2">Text</label>
+          <input type="text" placeholder="mit Platzhalter" id="example-input-text_2">
+        </div>
+        <div>
+          <label for="example-input-email">Email address</label>
+          <input type="email" id="example-input-email">
+        </div>
+        <div>
+          <label for="example-input-number">Number</label>
+          <input type="number" id="example-input-number">
+        </div>
+        <div>
+          <label for="example-input-password">Password</label>
+          <input type="password" id="example-input-password">
+        </div>
+        <div>
+          <label for="example-input-search">Search</label>
+          <input type="search" id="example-input-search">
+        </div>
+        <div>
+          <label for="example-input-tel">Telephone number</label>
+          <input type="tel" id="example-input-tel">
+        </div>
+        <div>
+          <label for="example-input-readonly">Read-only</label>
+          <input type="text" readonly value="Can't touch this!">
+        </div>
+        <div>
+          <label for="example-input-disabled">Disabled</label>
+          <input type="text" disabled value="Not available">
+        </div>
+        <div>
+          <label for="example-input-url">URL</label>
+          <input type="url" id="example-input-url">
+        </div>
+        <div>
+          <label for="example-input-color">Color</label>
+          <input type="color" id="example-input-color">
+        </div>
+        <div>
+          <label for="example-input-date">Date</label>
+          <input type="date" id="example-input-date">
+        </div>
+        <div>
+          <label for="example-input-date-time">Date / Time</label>
+          <input type="datetime" id="example-input-date-time">
+        </div>
+        <div>
+          <label for="example-input-date-time-local">Date / Time local</label>
+          <input type="datetime-local" id="example-input-date-time-local">
+        </div>
+        <div>
+          <label for="example-input-month">Month</label>
+          <input type="month" id="example-input-month">
+        </div>
+        <div>
+          <label for="example-input-week">Week</label>
+          <input type="week" id="example-input-week">
+        </div>
+        <div>
+          <label for="example-input-time">Time</label>
+          <input type="time" id="example-input-time">
+        </div>
+        <div>
+          <label for="example-input-file">File input</label>
+          <input type="file" id="example-input-file">
+        </div>
+        <div>
+          <label for="example-input-range">Range input</label>
+          <input type="range" id="example-input-range" min="1" max="4" value="3">
+        </div>
+        <div>
+          <label for="example-textarea">Textarea</label>
+          <textarea id="example-textarea" rows="3"></textarea>
+        </div>
+        <button type="submit" name="submit2">Submit</button>
+      </fieldset>
+      <fieldset>
+        <legend>Select-Elemente</legend>
+
+        <div>
+          <label for="example-select1">Select</label>
+          <select id="example-select1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div>
+          <label for="example-select1a">Select with size</label>
+          <select id="example-select1a" size="2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div>
+          <label for="example-select2">Multiple select</label>
+          <select multiple id="example-select2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div>
+          <label for="example-optgroup">Select with optgroup: Favorite Car</label>
+          <select id="example-optgroup">
+            <optgroup label="Swedish Cars">
+              <option>Volvo</option>
+              <option>Saab</option>
+            </optgroup>
+            <optgroup label="German Cars">
+              <option>Mercedes</option>
+              <option>Audi</option>
+            </optgroup>
+          </select>
+        </div>
+        <div>
+          <label for="example-optgroup2">Select with optgroup and size:
+            Favorite Dish</label>
+          <select id="example-optgroup2" size="2">
+            <optgroup label="Vegetarian">
+              <option>Green Salad</option>
+              <option>French Fries</option>
+            </optgroup>
+            <optgroup label="Carnivorous">
+              <option>Big Mac</option>
+              <option>Roast Beef</option>
+            </optgroup>
+          </select>
+        </div>
+        <div>
+          <label for="example-optgroup3">Multiple select with optgroup: Public
+            transport</label>
+          <select id="example-optgroup3" multiple>
+            <optgroup label="Ground">
+              <option>Train</option>
+              <option>Bus</option>
+            </optgroup>
+            <optgroup label="Water">
+              <option>Ship</option>
+              <option>Submarine</option>
+            </optgroup>
+            <optgroup label="Air">
+              <option>Plane</option>
+              <option>Balloon</option>
+            </optgroup>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Radiobuttons</legend>
+        <div>
+          <input type="radio" name="option-radio" id="option-radio1" value="option1" checked>
+          <label for="option-radio1">Option one is this and that&mdash;be
+            sure to include why it's great</label>
+        </div>
+        <div>
+          <input type="radio" name="option-radio" id="option-radio2" value="option2">
+          <label>Option two can be something else and selecting it will
+            deselect option one</label>
+        </div>
+        <div>
+          <input type="radio" name="option-radio" id="option-radio3" value="option3" disabled>
+          <label>Option three is disabled</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Checkboxen</legend>
+        <input type="checkbox" id="checkbox1">
+        <label for="checkbox1">Check me out</label>
+        <input type="checkbox" id="checkbox2">
+        <label for="checkbox2">and/or check me out</label>
+      </fieldset>
+
+      <button type="submit" name="submit2">Submit</button>
+      <button type="reset" name="reset2">Reset</button>
+      <button disabled>Cancel</button>
+      <button type="button" name="button">Button</button>
+      <input type="submit" name="submit" value="Input Submit">
+      <input type="reset" name="reset" value="Input Reset">
+      <input type="button" name="input" value="Input Button">
+
+    </form>
+
+    <h2 id="table">Tabellen</h2>
+    <table>
+      <caption>
+        Academy Awards for Best Picture
+        <span class="table__summary">Descriptions of the film title, production
+          company(s), and producers for the years 1980-1989.</span>
+      </caption>
+      <colgroup>
+        <col>
+        <col>
+        <col span="2">
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col">Film</th>
+          <th scope="col">Year</th>
+          <th scope="col">Production Company(s)</th>
+          <th scope="col">Producer(s)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Ordinary People</th>
+          <td>1980</td>
+          <td>Paramount</td>
+          <td>Ronald L. Schwary</td>
+        </tr>
+        <tr>
+          <th scope="row">Chariots of Fire</th>
+          <td>1981</td>
+          <td>Enigma Film Productions</td>
+          <td>David Puttnam</td>
+        </tr>
+        <tr>
+          <th scope="row">Gandhi</th>
+          <td>1982</td>
+          <td>Columbia</td>
+          <td>Richard Attenborough</td>
+        </tr>
+        <tr>
+          <th scope="row">Terms of Endearment</th>
+          <td>1983</td>
+          <td>Paramount</td>
+          <td>James L. Brooks</td>
+        </tr>
+        <tr>
+          <th scope="row">Amadeus</th>
+          <td>1984</td>
+          <td>Orion</td>
+          <td>Saul Zaentz</td>
+        </tr>
+        <tr>
+          <th scope="row">Out of Africa</th>
+          <td>1985</td>
+          <td>Universal, Mirage Enterprises</td>
+          <td>Sydney Pollack</td>
+        </tr>
+        <tr>
+          <th scope="row">Platoon</th>
+          <td>1986</td>
+          <td>Orion, Hemdale</td>
+          <td>Arnold Kopelson</td>
+        </tr>
+        <tr>
+          <th scope="row">The Last Emperor</th>
+          <td>1987</td>
+          <td>Recorded Picture Company, Yanco Films, TAO Films, AAA, Soprofilms
+          </td>
+          <td>Jeremy Thomas</td>
+        </tr>
+        <tr>
+          <th scope="row">Rain Man</th>
+          <td>1988</td>
+          <td>United Artists</td>
+          <td>Mark Johnson</td>
+        </tr>
+        <tr>
+          <th scope="row">Driving Miss Daisy</th>
+          <td>1989</td>
+          <td>Warner Bros.</td>
+          <td>Richard D. Zanuck, Lili Fini Zanuck</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">For the first six ceremonies, the eligibility period
+            spanned two calendar years.</td>
+        </tr>
+      </tfoot>
+    </table>
+    <h2 id="interactive">Interaktiv</h2>
+    <details open>
+      <summary>What payment options do you accept?</summary>
+      <p>We accept cash, Visa, American Express, money orders, and personal
+        checks.
+      </p>
+    </details>
+    <details>
+      <summary>What payment options do you not accept?</summary>
+      <p>All other.
+      </p>
+    </details>
+  </main>
+  <footer>
+    <!-- Korrekte Klasse für Layout setzen. -->
+    <div class="Layout">
+      <p>Mit Anregungen und Code von</p>
+      <ul>
+        <li><a href="https://github.com/dbox/html5-kitchen-sink">Dbox</a></li>
+        <li><a href="https://github.com/estelle/html_elements">Estelle</a></li>
+        <li><a href="https://alexandersandberg.github.io/html5-elements-tester/">Alexander
+            Sandberg</a></li>
+        <li><a href="https://ericwbailey.github.io/accessible-html-content-patterns/">Eric
+            W. Bailey</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script>
+    const canvas = document.querySelector("canvas");
+    const ctx = canvas.getContext("2d");
+    ctx.fillStyle = "#7ed321";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = "#ffffff";
+    ctx.fillRect(20, 10, 150, 100);
+  </script>
+
+</body>
+
+</html>
