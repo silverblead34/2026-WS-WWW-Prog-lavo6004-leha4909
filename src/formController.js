@@ -1,4 +1,4 @@
-import * as model from "./notes/model.js";
+import * as model from "./routing/model.js";
 import { render } from "./services/render.js";
 
 function normalizeDateForSQLite(datetimeLocalString) {

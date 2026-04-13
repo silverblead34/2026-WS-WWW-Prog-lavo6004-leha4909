@@ -1,6 +1,6 @@
-import * as model from "./notes/model.js";
+import * as model from "./routing/model.js";
 import { render } from "./services/render.js";
-import { add, create } from "./formController.js"; // <--- neu
+import { add, create } from "./formController.js";
 
 export async function handleRequest(request) {
     const url = new URL(request.url, `http://${request.headers.get("host")}`);
