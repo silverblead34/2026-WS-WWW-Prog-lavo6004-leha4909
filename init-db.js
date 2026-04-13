@@ -1,3 +1,4 @@
+/*
 import { DatabaseSync } from "node:sqlite";
 
 const db = new DatabaseSync("data/notes.sqlite");
@@ -23,3 +24,5 @@ db.exec(`
 
 db.close();
 console.log("Datenbank erfolgreich erstellt und mit Beispieldaten gefüllt.");
+
+*/

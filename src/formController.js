@@ -1,3 +1,4 @@
+/*
 import * as model from "./routing/model.js";
 import { render } from "./services/render.js";
 
@@ -60,3 +61,5 @@ export async function create(request) {
         headers: { Location: `/note/${lastNote.id}` },
     });
 }
+
+*/
