@@ -1,0 +1,77 @@
+{% extends "layout.html" %} {% block content %}
+<section>
+    <!DOCTYPE html>
+    <html lang="de">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vorbestellen</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <!--Navigation-->
+        <header>
+            <div class="nav-wrapper">
+                <div class="logo-container">
+                    <img src="Bilder/yaraLogo1.png" alt="Yara Logo">
+                </div>
+                <nav class="nav-container">
+                    <a href="index.html">Yara</a>
+                    <a href="Produktinfos.html">Produkt</a>
+                    <a href="nachhaltigkeit.html">Umwelt</a>
+                    <a href="anleitung.html">Anleitung</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero-image"></section>
+
+        <main>
+
+            <section class="intro">
+                <h2>Jetzt vorbestellen</h2>
+                <p>
+                    Trag dich ein, um benachrichtigt zu werden, sobald unser Bastelset verfügbar ist.
+                </p>
+            </section>
+
+            <section class="bestellung">
+                <form action="echo.php" method="post" class="bestellformular">
+                    <label for="name">Dein Name:</label><br />
+                    <input type="text" id="name" name="name" required />
+
+                    <label for="email">Deine E-Mail-Adresse:</label><br />
+                    <input type="email" id="email" name="email" required />
+
+                    <input type="submit" value="Vorbestellen" />
+                </form>
+            </section>
+
+            <hr>
+            <section class="danke">
+                <h1>Danke, dass Du uns unterstützt und versuchst die Welt nachhaltig bunter zu machen. </h1>
+            </section>
+        </main>
+
+        <footer class="foot">
+            <p>© Yara Education, 2023</p>
+            <p>Kontakt: <em>tomleon.vollbracht@unimuenster.enactus.team</em></p>
+            <nav>
+                <ul style="list-style: none; padding: 0;">
+                    <li> <a href="Dokumentation/dokumentation.html">Dokumentation</a> </li>
+                    <li> <a href="Dokumentation/kolophon.html">Kolophon</a> </li>
+                    <li><a href="impressum.html">Impressum</a></li>
+                    <li><a href="datenschutzerklaerung.html">Datenschutzerklärung</a></li>
+                    <li> <a class="instagram" href="https://www.instagram.com/yara.education" target="_blank">Instagram</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+
+    </body>
+
+    </html>
+</section>
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends "layout.html" %} {% block content %}
+<section>
+    <form method="POST" action="/note/add">
+        <label for="title">Titel:</label>
+        <input
+            type="text"
+            id="title"
+            name="title"
+            value="{{ formData.title }}"
+        >
+        {% if formError.title %}
+        <p class="error">{{ formError.title }}</p>
+        {% endif %}
+
+        <label for="text">Text:</label>
+        <textarea id="text" name="text">{{ formData.text }}</textarea>
+        {% if formError.text %}
+        <p class="error">{{ formError.text }}</p>
+        {% endif %}
+
+        <label for="date">Datum:</label>
+        <input
+            type="datetime-local"
+            id="date"
+            name="date"
+            value="{{ formData.date }}"
+        >
+        {% if formError.date %}
+        <p class="error">{{ formError.date }}</p>
+        {% endif %}
+
+        <button type="submit">Speichern</button>
+    </form>
+
+</section>
+{% endblock %}

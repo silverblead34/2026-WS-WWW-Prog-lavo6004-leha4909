@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{"Meine Notizen-App" }}</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f9f9f9;
+                color: #333;
+                margin: 0;
+                padding: 0;
+            }
+
+            nav {
+                background-color: #4a90e2;
+                padding: 1em;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin-right: 1em;
+                font-weight: bold;
+            }
+
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            main {
+                padding: 2em;
+            }
+
+            h1 {
+                color: #4a90e2;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav>
+            <a href="/">Startseite</a>
+            <a href="/note">Notizen</a>
+        </nav>
+
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+    </body>
+</html>

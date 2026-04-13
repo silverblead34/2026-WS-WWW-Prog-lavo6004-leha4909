@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-wrapper">
+            <div class="logo-container">
+                <img src="Bilder/yaraLogo1.png" alt="Yara Logo">
+            </div>
+            <nav class="nav-container">
+                <a href="index.html">Yara</a>
+                <a href="Produktinfos.html" class="active">Produkt</a>
+                <a href="nachhaltigkeit.html">Umwelt</a>
+                <a href="anleitung.html">Anleitung</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!--Hero-Bild -->
+        <section>
+            <div class="video-fullscreen">
+                <img src="Bilder/box5.JPEG" alt="Produktbild Header"
+                    style="width: 100%; height: auto; border-radius: 10px;">
+            </div>
+        </section>
+
+        <section>
+            <h2>Produktinformationen</h2>
+            <p>
+                Entdecke das einzigartige DIY-Kreideset für Kinder – ein kreatives Abenteuer, das
+                Bastelspaß mit Umweltbewusstsein verbindet! <br>
+                Mit recycelbaren Materialien, einem besonderen Gips aus der Zitronensäureproduktion
+                (einem industriellen Nebenprodukt) und spannenden Lerninhalten wird aus dem Set mehr
+                als nur Spielzeug: ein echtes Bildungsprojekt.
+            </p>
+        </section>
+
+        <hr> <br>
+        <section>
+            <h1>Das Kreideset</h1>
+            <div class="produktbild-container">
+                <img src="Bilder/box6.JPEG" alt="Set" />
+            </div>
+            <p style="text-align: center;">
+                Es enthält verschiedene Materialien:
+            </p>
+        </section>
+
+        <!--Material-Boxen-->
+        <section class="material-grid">
+
+            <div class="flip-card">
+                <input type="checkbox" id="flip1" class="flip-toggle" />
+                <label for="flip1" class="flip-inner">
+                    <div class="flip-front">
+                        <img src="Bilder/gips4.jpg" alt="Gips" />
+                        <p>Gips</p>
+                        <span class="flip-hint"> Tippen zum Umdrehen</span>
+                    </div>
+                    <div class="flip-back">
+                        <p>
+                            Der Gips ist aus umweltfreundlicher Zitronensäuregewinnung von CASEA.
+                        </p>
+                    </div>
+                </label>
+            </div>
+
+            <!--Weitere Boxen nach dem Schema aufbauen-->
+            <div class="flip-card">
+                <input type="checkbox" id="flip2" class="flip-toggle" />
+                <label for="flip2" class="flip-inner">
+                    <div class="flip-front">
+                        <img src="Bilder/farbe2.JPEG" alt="Anleitung" />
+                        <p>Farbwürfel</p>
+                        <span class="flip-hint">Tippen zum Umdrehen</span>
+                    </div>
+                    <div class="flip-back">
+                        <p>
+                            Farbwürfel in 3 Farben: rot, blau und gelb. Genug für sechs leuchtende Kreidestücke.
+                        </p>
+                    </div>
+                </label>
+            </div>
+
+            <div class="flip-card">
+                <input type="checkbox" id="flip3" class="flip-toggle" />
+                <label for="flip3" class="flip-inner">
+                    <div class="flip-front">
+                        <img src="Bilder/farbe4.JPEG" alt="Anleitung" />
+                        <p>Papierbecher</p>
+                        <span class="flip-hint">Tippen zum Umdrehen</span>
+                    </div>
+                    <div class="flip-back">
+                        <p>
+                            Praktische Papierbecher zum einfachen Anrühren. Kein Wiegen notwendig!
+                        </p>
+                    </div>
+                </label>
+            </div>
+
+            <div class="flip-card">
+                <input type="checkbox" id="flip4" class="flip-toggle" />
+                <label for="flip4" class="flip-inner">
+                    <div class="flip-front">
+                        <img src="Bilder/set3.JPEG" alt="Anleitung" />
+                        <p>Bastelmaterialien und Wachspapier </p>
+                        <span class="flip-hint">Tippen zum Umdrehen</span>
+                    </div>
+                    <div class="flip-back">
+                        <p>
+                            Das Wachspapier ist vegan und ohne Palmöl, damit die Kreide nicht anklebt.
+                            Die Verpackung des Produkt dient der Herstellung der nachhaltigen, plastikfreien Kreide.
+                        </p>
+                    </div>
+                </label>
+            </div>
+
+            <div class="flip-card">
+                <input type="checkbox" id="flip5" class="flip-toggle" />
+                <label for="flip5" class="flip-inner">
+                    <div class="flip-front">
+                        <div class="video-wrapper">
+                            <video src="Bilder/App.mp4" autoplay loop muted playsinline></video>
+                        </div>
+                        <p>App-Spiel</p>
+                        <span class="flip-hint">Tippen zum Umdrehen</span>
+                    </div>
+
+                    <div class="flip-back">
+                        <p>
+                            Spannende Lerninhalte & Zugang zur digitalen Lern-App. Alles rund um die Themen
+                            Nachhaltigkeit, Mülltrennung und Kreislaufwirtschaft!
+                        </p>
+                    </div>
+                </label>
+            </div>
+
+            <div class="flip-card">
+                <input type="checkbox" id="flip7" class="flip-toggle" />
+                <label for="flip7" class="flip-inner">
+                    <div class="flip-front">
+                        <img src="Bilder/anleitung1.JPEG" alt="Anleitung" />
+                        <p>Anleitung</p>
+                        <span class="flip-hint">Tippen zum Umdrehen</span>
+                    </div>
+                    <div class="flip-back">
+                        <p>
+                            Eine gedruckte Anleitung mit Schritt-für-Schritt-Erklärung und Link zur Videoanleitung.
+                        </p>
+                    </div>
+                </label>
+            </div>
+        </section>
+
+        <section style="text-align: center;">
+            <a class="intro-button-link" href="bestellformular.html">Jetzt vorbestellen</a>
+        </section>
+        <br>
+        <section>
+            <h3>Weitere Infos:</h3>
+            <p><strong>⏱ Dauer:</strong> ca. 1 Stunde</p>
+            <p><strong>👧 Empfohlenes Alter:</strong> ab 6 Jahren (jüngere Kinder nur mit Unterstützung)</p>
+            <h3>Perfekt geeignet für:</h3>
+            <p>Kindergeburtstage, Schulprojekte, Aktionstage oder als liebevolles Geschenk für kleine Weltverbesserer.
+            </p>
+            <hr> <br>
+            <p><strong>👉 Werde kreativ und bring Farbe in die Welt – mit deiner selbstgemachten Kreide!</strong></p>
+        </section>
+
+        <section>
+            <video class="video-wrapper2" src="Bilder/Uboxing.mov" autoplay loop muted playsinline></video>
+        </section>
+
+        <section style="text-align: center;">
+            <p>
+                Du hast die Materialien schon Zuhause und möchtest umweltfreundliche Kreide ganz einfach selbst
+                herstellen?
+                Dann starte direkt los! Klicke <a href="anleitung.html">hier</a> für die Schritt-für-Schritt-Anleitung.
+            </p>
+        </section>
+        <br>
+    </main>
+
+    <!--Footer-->
+    <footer class="foot">
+        <p>© Yara Education, 2023</p>
+        <p>Kontakt: <em>tomleon.vollbracht@unimuenster.enactus.team</em></p>
+        <nav>
+            <ul style="list-style: none; padding: 0;">
+                <li> <a href="Dokumentation/dokumentation.html">Dokumentation</a> </li>
+                <li> <a href="Dokumentation/kolophon.html">Kolophon</a> </li>
+                <li><a href="impressum.html">Impressum</a></li>
+                <li><a href="datenschutzerklaerung.html">Datenschutzerklärung</a></li>
+                <li> <a class="instagram" href="https://www.instagram.com/yara.education" target="_blank">Instagram</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>
